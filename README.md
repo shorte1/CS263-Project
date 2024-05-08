@@ -15,6 +15,8 @@ Part 3 of the final project will be your implementation and final report. You wi
 
 -Document with an explanation of how you have met the requirements for the final project. Include this document in your GitHub repository.
 
-    -For each of the criteria listed above (usability, educational value, interactivity, and aesthetics), explain how these are present in your implementation. I.e., tell me why I should give you full credit (or not full         credit) for each criterion.
-    
-    -Is there an aspect of your project that does not fit into the above criteria, but you put special effort into? E.g., making your website accessible to screen readers, making your website work well on a phone, etc. I         may consider giving extra credit for such work.
+    -For each of the criteria listed above (usability, educational value, interactivity, and aesthetics), explain how these are present in your implementation. I.e., tell me why I should give you full credit 
+     (or not full credit) for each criterion.
+     
+    -Is there an aspect of your project that does not fit into the above criteria, but you put special effort into? E.g., making your website accessible to screen readers, making your 
+     website work well on a phone, etc. I may consider giving extra credit for such work.
