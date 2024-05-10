@@ -5,5 +5,5 @@ function SomeIdea() {
   location.href = "SomeIdea.html"
 }
 function ProfessionalIdea() {
-  location.href = "Professional.html"
+  location.href = "ProfessionalIdea.html"
 }
