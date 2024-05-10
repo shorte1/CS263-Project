@@ -38,9 +38,9 @@
     display: inline-block;
     font-size: 16px;
   }
-  .button {
+  .button-list {
     transition-duration: 0.4s;
   }
-  .button:hover {
+  .button-list:hover {
     background-color: #767676;
   }
