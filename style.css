@@ -26,9 +26,9 @@
   }
   
   button {
-    background-color: #d9d9d9;  /* green */
+    background-color: #d9d9d9;
     border: none;
-    color: white;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
