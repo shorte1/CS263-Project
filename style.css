@@ -1,5 +1,18 @@
 
+
+  .header img {
+    float: left;
+    width: 60px;
+    height: 60px;
+    background: rgb(175, 175, 175);
+  }
   
+  .header h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+  }
+
   body {
     text-align: start;
     color:"blaack";
@@ -9,7 +22,12 @@
     background-color:rgb(175, 175, 175);
     font-family: "Comic Sans MS", "Comic Sans", cursive
   }
-  
+    
+  .blankSpace {
+    background-color:rgb(175, 175, 175);
+
+  }
+
   p {
   background-color:rgb(233, 233, 233);
   padding: 20px;
