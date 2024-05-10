@@ -35,10 +35,10 @@
     text-align: center;
     display: inline-block;
     font-size: 16px;
-    .button {
-      transition-duration: 0.4s;
-    }
-    .button:hover {
-      background-color: #767676;
-    }
+  }
+  .button {
+    transition-duration: 0.4s;
+  }
+  .button:hover {
+    background-color: #767676;
   }
