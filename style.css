@@ -17,11 +17,25 @@
   }
   .multipleChoice button{
     float: left;
-  }
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d9d9d9;
+    color: black;
+    border: 2px solid #767676;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    }
 
   .multipleChoice p{
     position: relative;
   }
+
+  .quiz button:hover {
+    background-color: #b8b8b8;
+  }
+
 
   body {
     text-align: start;
@@ -53,18 +67,19 @@
     border: 5px rgb(233, 233, 233);
   }
 
-.Body img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2%;
-  margin-bottom: 1px;
-  width: 80%;
-}
+  .Body img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 1px;
+    width: 80%;
+  }
 
   p {
-  color: "black";
+    color: "black";
   }
+
   .button-list {
     list-style-type: none;
     padding: 0; 
@@ -75,7 +90,11 @@
     margin-right: auto;
     text-align: center;
   }
-  
+
+  .quiz {
+    list-style-type: none;
+    padding: 0; 
+  }
   button {
     margin-left: auto;
     margin-right: auto;
