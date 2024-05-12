@@ -23,12 +23,13 @@
     margin-top: 4%;
     background-color:rgb(175, 175, 175);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 25px;
   }
 
-  cite {
+  .Body cite {
     font-size: 18px;
     margin-left: 10%;
+    mragin-top: 1px;
   }
 
   .blankSpace {
