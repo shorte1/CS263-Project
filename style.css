@@ -7,10 +7,20 @@
     background: rgb(175, 175, 175);
   }
   
+  .quiz {
+  list-style-type: none;
+  }
   .header h1 {
     position: relative;
     top: 18px;
     left: 10px;
+  }
+  .multipleChoice button{
+    float: left;
+  }
+
+  .multipleChoice p{
+    position: relative;
   }
 
   body {
