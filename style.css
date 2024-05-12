@@ -30,6 +30,12 @@
 
   }
 
+  div2 {
+    background-color:rgb(233, 233, 233);
+    padding: 20px;
+    border: 5px rgb(233, 233, 233);
+  }
+
   p {
   background-color:rgb(233, 233, 233);
   padding: 20px;
