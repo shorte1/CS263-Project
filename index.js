@@ -7,3 +7,6 @@ function SomeIdea() {
 function ProfessionalIdea() {
   location.href = "ProfessionalIdea.html"
 }
+function goToQuiz() {
+  location.href = "quiz.html"
+}
