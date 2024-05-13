@@ -56,11 +56,11 @@ nav .btn {
   background: #d9d9d9;
   border: 2px solid #767676;
   padding: 15px 32px;
-  transition-duration: 0.4s;
   text-decoration: none;
   color: black;
   display: inline-block;
   width: 8.5em;
+  transition: 0.4s;
 }
 
 nav .btn:hover {
