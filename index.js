@@ -13,14 +13,14 @@ function goToQuiz() {
 
 function replaceButtonX() {
   var image = document.createElement("img");
-  image.source = "X.png"; 
+  image.src = "X.png"; 
   image.alt = "Wrong!"; 
   document.getElementById("wrong").replaceWith(image);
 }
 
 function replaceButtonCheck() {
   var image = document.createElement("img");
-  image.source = "Check.png"; 
+  image.src = "Check.png"; 
   image.alt = "Correct!"; 
   document.getElementById("correct").replaceWith(image);
 }
