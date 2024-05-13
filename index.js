@@ -25,17 +25,5 @@ function replaceButtonCheck() {
   document.getElementById("correct").replaceWith(image);
 }
 
+document.getElementById("wrong").addEventListener("click", replaceButtonX);
 document.getElementById("correct").addEventListener("click", replaceButtonCheck);
-document.getElementById("correct").addEventListener("click", replaceButtonCheck);
-document.getElementById("correct").addEventListener("click", replaceButtonCheck);
-
-document.getElementById("wrong").addEventListener("click", replaceButtonX);
-document.getElementById("wrong").addEventListener("click", replaceButtonX);
-document.getElementById("wrong").addEventListener("click", replaceButtonX);
-document.getElementById("wrong").addEventListener("click", replaceButtonX);
-document.getElementById("wrong").addEventListener("click", replaceButtonX);
-document.getElementById("wrong").addEventListener("click", replaceButtonX);
-document.getElementById("wrong").addEventListener("click", replaceButtonX);
-document.getElementById("wrong").addEventListener("click", replaceButtonX);
-document.getElementById("wrong").addEventListener("click", replaceButtonX);
-
