@@ -10,20 +10,3 @@ function ProfessionalIdea() {
 function goToQuiz() {
   location.href = "quiz.html"
 }
-
-function replaceButtonX() {
-  var image = document.createElement("img");
-  image.src = "X.png"; 
-  image.alt = "Wrong!"; 
-  document.getElementById("wrong").replaceWith(image);
-}
-
-function replaceButtonCheck() {
-  var image = document.createElement("img");
-  image.src = "Check.png"; 
-  image.alt = "Correct!"; 
-  document.getElementById("correct").replaceWith(image);
-}
-
-document.getElementById("wrong").addEventListener("click", replaceButtonX);
-document.getElementById("correct").addEventListener("click", replaceButtonCheck);

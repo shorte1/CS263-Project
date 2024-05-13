@@ -2,34 +2,33 @@
 <link rel="stylesheet" href="style.css">
 
 <html lang="en">
-<script src="index.js" defer></script>
     <head>
         <title>
             Home Page
         </title>
     </head>
     <body>
-        <div class="header">
+        <h1 class="title">
             <img src="Small Door.png" alt="Door Logo" />
-            <h1>Backdoors in Code</h1>
-        </div>
-        <p class="blankSpace"></p>
-        <div class="Body">
-            <img src="thinker.webp" />
-            <p><cite>html-tuts.com</cite></p>
+            <span>Backdoors in Code</span>
+        </h1>
+
+        <main>
+            <img src="thinker.webp">
+            <cite>html-tuts.com</cite>
             <p>
-                 Backdoors are a near-constant threat in any sort of program, a threat that people have gone to great lengths to diminish as much as possible. But the lack of knowledge by the general public of just how dangerous a backdoor can be has led to a truly dangerous situation where companies heavily downplay the severity of backdoors in their software when discovered and they often do very little to fix the issue, much less compensate those affected. 
+                Backdoors are a near-constant threat in any sort of program, a threat that people have gone to great lengths to diminish as much as possible. But the lack of knowledge by the general public of just how dangerous a backdoor can be has led to a truly dangerous situation where companies heavily downplay the severity of backdoors in their software when discovered and they often do very little to fix the issue, much less compensate those affected. 
             </p>
 
             <p>
                 In an effort to spread the word of just how damaging these backdoors can be we would like to meet you at where you are in your knowledge and help you develop a better understanding of how backdoors work and what you can do to avoid being taken advantage of by them. Please choose an option below that corresponds to your knowledge level on backdoors and we can get started.
             </p>
-        </div>
-        <ul class="button-list">
-            <li><button onclick="NoIdea()">I have no idea</button></li>
-            <li><button onclick="SomeIdea()">I have some idea</button></li>
-            <li><button onclick="ProfessionalIdea()">I know a lot</button></li>
-        </ul>
-        <button onclick="goToQuiz()">I want to go to the quiz</button>
-        </body>
+        </main>
+        <nav>
+            <a class="btn" href="NoIdea.html">I have no idea</a>
+            <a class="btn" href="SomeIdea.html">I have some idea</a>
+            <a class="btn" href="ProfessionalIdea.html">I know a lot</a>
+        </nav>
+        <a href="quiz.html">I want to go to the quiz</a>
+    </body>
 </html>
