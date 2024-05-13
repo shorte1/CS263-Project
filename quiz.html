@@ -2,66 +2,52 @@
 <link rel="stylesheet" href="style.quiz.css">
 
 <html lang="en">
-<script src="index.js" defer></script>
-    <head>
-        <title>
-            Home Page
-        </title>
-    </head>
-    <body>
-        <div class="header">
-            <img src="Small Door.png" alt="Door Logo" />
-            <h1>Backdoors in Code</h1>
-        </div>
+<script src="script.quiz.js" defer></script>
 
-        <h2>
-            Quiz
-        </h2>
-        <p class="blankSpace"></p>
-        <ol class="quiz">
-            <li class="question">
-                <p>1. What does X do?</p>
-                <ul>
-                    <li>
-                        <button>A</button>
-                        <span>kek</span>
-                    </li>
-                    <li>
-                        <button>B</button>
-                        <span>kek</span>
-                    </li>
-                    <li>
-                        <button>C</button>
-                        <span>kek</span>
-                    </li>
-                    <li>
-                        <button>D</button>
-                        <span>kek</span>
-                    </li>
-                </ul>
-            </li>
+<head>
+  <title>
+    Home Page
+  </title>
+</head>
 
-            <li class="question">
-                <p>What does X do?</p>
-                <ul>
-                    <li>
-                        <button>A</button>
-                        <span>kek</span>
-                    </li>
-                    <li>
-                        <button>B</button>
-                        <span>kek</span>
-                    </li>
-                    <li>
-                        <button>C</button>
-                        <span>kek</span>
-                    </li>
-                    <li>
-                        <button>D</button>
-                        <span>kek</span>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </body>
+<body>
+  <h1 class="title">
+    <img src="Small Door.png" alt="Door Logo" />
+    <span>Backdoors in Code</span>
+  </h1>
+
+  <h2>Quiz</h2>
+
+  <div class="quiz">
+    <li class="question">
+      <span>What does X do?</span>
+      <ul class="answers" data-answer="b">
+        <li class="choice" data-choice="a">
+          <button>
+            <span>A</span>
+          </button>
+          <span>kek</span>
+        </li>
+        <li class="choice" data-choice="b">
+          <button>
+            <span>B</span>
+          </button>
+          <span>kek</span>
+        </li>
+        <li class="choice" data-choice="c">
+          <button>
+            <span>C</span>
+          </button>
+          <span>kek</span>
+        </li>
+        <li class="choice" data-choice="d">
+          <button>
+            <span>D</span>
+          </button>
+          <span>kek</span>
+        </li>
+      </ul>
+    </li>
+  </div>
+</body>
 </html>
