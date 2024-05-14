@@ -9,6 +9,10 @@ body {
   font-size: 25px;
 }
 
+cite {
+  font-size: 15px;
+}
+
 main {
   background-color:rgb(233, 233, 233);
   padding: 20px;
