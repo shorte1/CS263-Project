@@ -61,6 +61,7 @@ nav .btn {
   display: inline-block;
   width: 8.5em;
   transition: 0.4s;
+  text-align: center;
 }
 
 nav .btn:hover {
