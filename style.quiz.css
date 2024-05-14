@@ -52,3 +52,39 @@ button span,
 button span {
   font-size: 0;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 4px;
+}
+
+nav .btn {
+  background: #d9d9d9;
+  border: 2px solid #767676;
+  padding: 15px 32px;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  width: 8.5em;
+  transition: 0.4s;
+  text-align: center;
+}
+
+nav {
+  margin: 25px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  text-align: center;
+}
+
+
